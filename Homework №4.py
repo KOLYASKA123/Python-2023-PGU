@@ -9,11 +9,12 @@ def calc():
 
     try:
 
-        eval(expression)
-        print(f' = {eval(expression)}')
+        result = eval(expression)
+        print(f' = {result}')
 
     except NameError: print('Ошибка. Вероятно, в введённых вами инструкциях несуществующая функция.')
     except ZeroDivisionError: print('На ноль делить нельзя, олух.')
+    except SyntaxError: print('Вы что-то как-то неправильно написали...')
 
 def main():
     
