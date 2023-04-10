@@ -1,6 +1,6 @@
 def FindTheBiggestWord(listOfWords):
 
-    unicWords = set(listOfWords)
+    unicWords = set(listOfWords) # Делаем из списка слов множество - тот же список, но хранит в себе только уникальные значения
     word = ''
 
     for i in unicWords:
@@ -29,7 +29,7 @@ def FindTheMostFrequentWord(listOfWords):
 def main():
 
     someString = input("Введите произвольную строку: ")
-    someString = someString.split()
+    someString = someString.split() # Этот метод превращает строку в список, разбивая строку по пробелу (можно задать другой разделитель)
     FindTheMostFrequentWord(someString)
     FindTheBiggestWord(someString)
 
