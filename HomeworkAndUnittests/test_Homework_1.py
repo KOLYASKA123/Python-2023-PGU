@@ -1,5 +1,5 @@
 from unittest import TestCase, main
-from Homework_1 import sravnitel, iteration
+from HomeworkAndUnittests.Homework_1 import sravnitel, iteration
 
 
 class TestHomework1(TestCase):

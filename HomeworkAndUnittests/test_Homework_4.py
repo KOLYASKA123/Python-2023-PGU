@@ -1,5 +1,5 @@
 from unittest import TestCase, main
-from Homework_4 import calc
+from HomeworkAndUnittests.Homework_4 import calc
 import math
 
 class TestHomework4(TestCase):

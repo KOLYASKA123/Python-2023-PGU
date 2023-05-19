@@ -1,5 +1,5 @@
 from unittest import TestCase, main
-from Homework_2 import SkipTheThirdLetter, LookingForC, LenOfString, SkipTheLastLetter, iteration
+from HomeworkAndUnittests.Homework_2 import SkipTheThirdLetter, LookingForC, LenOfString, SkipTheLastLetter, iteration
 
 
 class TestHomework2(TestCase):

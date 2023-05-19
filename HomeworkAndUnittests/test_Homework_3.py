@@ -1,5 +1,5 @@
 from unittest import TestCase, main
-from Homework_3 import iteration, FindLongestAndFrequentWord
+from HomeworkAndUnittests.Homework_3 import iteration, FindLongestAndFrequentWord
 
 
 class TestHomework3(TestCase):
